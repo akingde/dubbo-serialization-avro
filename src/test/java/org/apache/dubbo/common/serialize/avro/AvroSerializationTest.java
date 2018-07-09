@@ -8,11 +8,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.apache.dubbo.common.serialize.ObjectInput;
-import org.apache.dubbo.common.serialize.ObjectOutput;
 import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.alibaba.dubbo.common.serialize.ObjectInput;
+import com.alibaba.dubbo.common.serialize.ObjectOutput;
 
 public class AvroSerializationTest {
 	 private AvroSerialization avroSerialization;

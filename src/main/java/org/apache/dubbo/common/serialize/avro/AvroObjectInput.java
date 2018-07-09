@@ -10,7 +10,8 @@ import org.apache.avro.io.BinaryDecoder;
 import org.apache.avro.io.DecoderFactory;
 import org.apache.avro.reflect.ReflectDatumReader;
 import org.apache.avro.util.Utf8;
-import org.apache.dubbo.common.serialize.ObjectInput;
+
+import com.alibaba.dubbo.common.serialize.ObjectInput;
 
 public class AvroObjectInput implements ObjectInput{
 	private DecoderFactory decoderFactory=DecoderFactory.get();;
