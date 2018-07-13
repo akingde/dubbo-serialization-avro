@@ -8,8 +8,7 @@ import org.apache.avro.io.BinaryEncoder;
 import org.apache.avro.io.EncoderFactory;
 import org.apache.avro.reflect.ReflectDatumWriter;
 import org.apache.avro.util.Utf8;
-
-import com.alibaba.dubbo.common.serialize.ObjectOutput;
+import org.apache.dubbo.common.serialize.ObjectOutput;
 
 public class AvroObjectOutput implements ObjectOutput{
 	private EncoderFactory encoderFactory=EncoderFactory.get();
