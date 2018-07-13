@@ -4,6 +4,10 @@ target/
 .project
 .classpath
 
+# idea
+.idea/
+*.iml
+
 # Compiled class file
 *.class
 
